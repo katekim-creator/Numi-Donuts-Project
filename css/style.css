@@ -1,0 +1,188 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4efe3;
+    color: #183546;
+    font-family: 'Quicksand', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+a {
+    color: #183546;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C86457;
+}
+
+a:active, .active {
+    color: rgba(24, 53, 70, 0.7);
+}
+
+/* CUSTOMIZE STYLES
+-------------------------------------------------- */
+/* Header */
+
+header h2 {
+    text-align: center; 
+}
+header h2 img {
+    width: 134px;
+}
+
+.nav li {
+    margin: 0 20px;
+}
+.nav a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* Main */
+main h3 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.intro {
+    background-image: url("../img/jumbotron-donut.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-color: #ffc2c7;
+    height: 600px;
+}
+.intro h1 {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 70px;
+    text-align: center;
+}
+.intro p {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+}
+.intro .s-icons a{
+    font-size: 22px;
+}
+
+/* Bestsellers */
+.bestsellers {
+    background-color: #F3DEDA;
+}
+.bestsellers img {
+    padding: 20px 20px 0 20px;
+}
+.bestsellers p.donut-name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+a .btn-numi {
+    background-color: #183546;
+    color: #F4EFE3;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 10px 20px;
+}
+a .btn-numi:hover {
+    background-color: #C86457;
+    color: #183546;
+}
+/* About */
+.about {
+    background-color: #dee2e6;
+    min-height: 580px;
+}
+.about .container {
+    position: relative;
+}
+.about img.bg-donut {
+    position: absolute;
+    width: 260px;
+    bottom: 0px;
+    right: 100px;
+}
+.about .about-icon {
+    display: flex;
+    align-items: center;
+}
+.about .about-icon img {
+    width: 50px;
+    margin-right: 20px;
+}
+.about .about-text {
+    margin-top: 80px;
+}
+/* FindUs */
+.findus .find-l {
+    overflow: hidden;
+    width: 100%;
+    min-height: 390px;
+}
+.findus .find-l img{
+    width: auto;
+    height: 390px;
+}
+.findus .find-r{
+    background: #E8C579;
+    min-height: 390px;
+}
+.findus .find-r p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 10px 0 20px 0;
+}
+.findus .find-r p:last-child{
+    padding-bottom: 0px;
+}
+/* Footer */
+footer {
+    background: #183546;
+}
+footer p{
+    color: #F4EFE3;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+footer a{
+    color: #F4EFE3;
+    font-size: 20px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
