@@ -47,7 +47,6 @@ a:active, .active {
 /* CUSTOMIZE STYLES
 -------------------------------------------------- */
 /* Header */
-
 header h2 {
     text-align: center; 
 }
@@ -74,6 +73,8 @@ main h3 {
     text-align: center;
     text-decoration-line: underline;
 }
+
+/* Intro */
 .intro {
     background-image: url("../img/jumbotron-donut.jpg");
     background-position: bottom center;
@@ -127,13 +128,10 @@ a .btn-numi:hover {
     min-height: 580px;
 }
 .about .container {
-    position: relative;
-}
-.about img.bg-donut {
-    position: absolute;
-    width: 260px;
-    bottom: 0px;
-    right: 100px;
+    background-image: url("../img/donut-orange-2.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 420px;
 }
 .about .about-icon {
     display: flex;
@@ -145,6 +143,7 @@ a .btn-numi:hover {
 }
 .about .about-text {
     margin-top: 80px;
+    width: 60%;
 }
 /* FindUs */
 .findus .find-l {
@@ -186,3 +185,91 @@ footer a{
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+
+@media screen and (max-width: 990px) and (min-width: 600px) {
+
+    .nav a {
+        font-size: 20px;
+        margin: 0;
+        padding: 0 5px;
+    }
+
+    .row-cols-1>* {
+        width: 50%;
+    }
+
+    .intro h1 {
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        padding: 40px 0 0 0;
+    }
+    .intro {
+        height: 500px;
+    }
+    .intro p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .intro .s-icons a{
+        font-size: 20px;
+    }
+
+    .about .container {
+        background-image: url("../img/donut-orange-3.png");
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: 320px;
+    }
+    
+    .about .about-text {
+        margin-top: 50px;
+        width: 65%;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    main h3 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .nav li {
+        margin: 0;
+        padding: 0;
+    }
+    .nav a {
+        font-size: 20px;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    .intro h1 {
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        padding: 40px 0 0 0;
+    }
+    .intro {
+        height: 500px;
+    }
+    .intro p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .intro .s-icons a{
+        font-size: 20px;
+    }
+
+    .about .container {
+        background-image: none;
+    }
+
+    .about .about-text {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    
+}
